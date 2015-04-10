@@ -34,7 +34,7 @@ public class vmain extends JFrame
     public vmain()
     {
 	frame=new JFrame();
-	frame.setTitle("太羅訂單系統");
+	frame.setTitle("泰羅訂單系統");
 	frame.setBounds(100,100,600,450);
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
