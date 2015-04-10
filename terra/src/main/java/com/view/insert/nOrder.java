@@ -1,23 +1,26 @@
 package com.view.insert;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
+import com.view.BasicFrame;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
+public class nOrder extends BasicFrame
+{
 
-public class nOrder extends JFrame {
+    /**
+     * 
+     */
+    private static final long serialVersionUID=-1280568371435326691L;
 
-	private JPanel contentPane;
+    public nOrder(String name)
+    {
+	super(name);
+	// TODO 自動產生的建構子 Stub
+    }
 
-	public nOrder() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 500, 300);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setLayout(new BorderLayout(0, 0));
-		setContentPane(contentPane);
-	}
+    @Override
+    public void initialize()
+    {
+	// TODO 自動產生的方法 Stub
+	
+    }
 
 }

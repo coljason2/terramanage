@@ -1,24 +1,27 @@
 package com.view.manage;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 
-public class mOrder extends JFrame {
+import com.view.BasicFrame;
 
-	private JPanel contentPane;
+public class mOrder extends BasicFrame
+{
+    /**
+     * 
+     */
+    private static final long serialVersionUID=-9032196767121364852L;
 
-	public mOrder() {
-		setTitle("訂單管理");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 500, 300);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setLayout(new BorderLayout(0, 0));
-		setContentPane(contentPane);
-	}
+    public mOrder(String name)
+    {
+	super(name);
+	// TODO 自動產生的建構子 Stub
+    }
+
+    @Override
+    public void initialize()
+    {
+	// TODO 自動產生的方法 Stub
+	
+    }
 
 }

@@ -1,59 +1,83 @@
 package com.entity;
 
-public class product {
-	long pk;
-	String name;
-	String color;
-	String size;
-	String des;
-	long count;
+public class product
+{
+    long pk;
+    String name;
+    String color;
+    String size;
+    String des;
+    long price;
+    long count;
 
-	public long getPk() {
-		return pk;
-	}
+    public long getPrice()
+    {
+        return price;
+    }
 
-	public void setPk(long pk) {
-		this.pk = pk;
-	}
+    public void setPrice(long price)
+    {
+        this.price=price;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public long getPk()
+    {
+	return pk;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setPk(long pk)
+    {
+	this.pk=pk;
+    }
 
-	public String getColor() {
-		return color;
-	}
+    public String getName()
+    {
+	return name;
+    }
 
-	public void setColor(String color) {
-		this.color = color;
-	}
+    public void setName(String name)
+    {
+	this.name=name;
+    }
 
-	public String getSize() {
-		return size;
-	}
+    public String getColor()
+    {
+	return color;
+    }
 
-	public void setSize(String size) {
-		this.size = size;
-	}
+    public void setColor(String color)
+    {
+	this.color=color;
+    }
 
-	public String getDes() {
-		return des;
-	}
+    public String getSize()
+    {
+	return size;
+    }
 
-	public void setDes(String des) {
-		this.des = des;
-	}
+    public void setSize(String size)
+    {
+	this.size=size;
+    }
 
-	public long getCount() {
-		return count;
-	}
+    public String getDes()
+    {
+	return des;
+    }
 
-	public void setCount(long count) {
-		this.count = count;
-	}
+    public void setDes(String des)
+    {
+	this.des=des;
+    }
+
+    public long getCount()
+    {
+	return count;
+    }
+
+    public void setCount(long count)
+    {
+	this.count=count;
+    }
 
 }
