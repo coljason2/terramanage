@@ -1,83 +1,96 @@
 package com.entity;
 
-public class product
-{
-    long pk;
-    String name;
-    String color;
-    String size;
-    String des;
-    long price;
-    long count;
+import java.sql.Timestamp;
 
-    public long getPrice()
-    {
-        return price;
-    }
+class product {
+	String pkid;
+	String name;
+	String color;
+	String sex;
+	String type;
+	String remark;
+	long price;
+	long count;
+	Timestamp createdate;
+	Timestamp updatedate;
 
-    public void setPrice(long price)
-    {
-        this.price=price;
-    }
+	public String getPkid() {
+		return pkid;
+	}
 
-    public long getPk()
-    {
-	return pk;
-    }
+	public void setPkid(String pkid) {
+		this.pkid = pkid;
+	}
 
-    public void setPk(long pk)
-    {
-	this.pk=pk;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public String getName()
-    {
-	return name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setName(String name)
-    {
-	this.name=name;
-    }
+	public String getColor() {
+		return color;
+	}
 
-    public String getColor()
-    {
-	return color;
-    }
+	public void setColor(String color) {
+		this.color = color;
+	}
 
-    public void setColor(String color)
-    {
-	this.color=color;
-    }
+	public String getSex() {
+		return sex;
+	}
 
-    public String getSize()
-    {
-	return size;
-    }
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
 
-    public void setSize(String size)
-    {
-	this.size=size;
-    }
+	public String getType() {
+		return type;
+	}
 
-    public String getDes()
-    {
-	return des;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 
-    public void setDes(String des)
-    {
-	this.des=des;
-    }
+	public String getRemark() {
+		return remark;
+	}
 
-    public long getCount()
-    {
-	return count;
-    }
+	public void setRemark(String remark) {
+		this.remark = remark;
+	}
 
-    public void setCount(long count)
-    {
-	this.count=count;
-    }
+	public long getPrice() {
+		return price;
+	}
 
+	public void setPrice(long price) {
+		this.price = price;
+	}
+
+	public long getCount() {
+		return count;
+	}
+
+	public void setCount(long count) {
+		this.count = count;
+	}
+
+	public Timestamp getCreatedate() {
+		return createdate;
+	}
+
+	public void setCreatedate(Timestamp createdate) {
+		this.createdate = createdate;
+	}
+
+	public Timestamp getUpdatedate() {
+		return updatedate;
+	}
+
+	public void setUpdatedate(Timestamp updatedate) {
+		this.updatedate = updatedate;
+	}
 }
