@@ -2,6 +2,11 @@ package com.entity;
 
 import java.sql.Timestamp;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity(name = "")
+@Table(name = "")
 class product {
 	String pkid;
 	String name;

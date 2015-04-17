@@ -3,6 +3,11 @@ package com.entity;
 import java.sql.Timestamp;
 import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "")
 public class customer {
 	String pkid;
 	String name;
