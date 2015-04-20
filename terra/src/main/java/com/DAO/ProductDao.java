@@ -8,31 +8,31 @@ import com.entity.product;
 public class ProductDao extends BasicDao<product> {
 
 	@Override
-	public void inertObject() {
+	public void inertObject(product pro) {
 		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public int updateObject() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public int deleteObject() {
+	public int updateObject(product pro) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public product findone() {
+	public int deleteObject(product pro) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public product findone(Integer id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<product> findAll() {
+	public List<product> findAll(String str) {
 		// TODO Auto-generated method stub
 		return null;
 	}
