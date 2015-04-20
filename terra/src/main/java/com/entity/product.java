@@ -9,7 +9,7 @@ import com.basic.BasicEntity;
 
 @Entity(name = "")
 @Table(name = "")
-class product extends BasicEntity {
+public class product extends BasicEntity {
 	String pkid;
 	String name;
 	String color;

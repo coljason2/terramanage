@@ -2,15 +2,15 @@ package com.basic;
 
 import java.util.List;
 
-public interface BasicDao<T extends BasicEntity> {
+public abstract class BasicDao<T extends BasicEntity> {
 
-	public void inertObject();
+	public abstract void inertObject();
 
-	public int updateObject();
+	public abstract int updateObject();
 
-	public int deleteObject();
+	public abstract int deleteObject();
 
-	public T findone();
+	public abstract T findone();
 
-	public List<T> findAll();
+	public abstract List<T> findAll();
 }
