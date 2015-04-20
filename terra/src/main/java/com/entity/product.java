@@ -5,9 +5,11 @@ import java.sql.Timestamp;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+import com.basic.BasicEntity;
+
 @Entity(name = "")
 @Table(name = "")
-class product {
+class product extends BasicEntity {
 	String pkid;
 	String name;
 	String color;

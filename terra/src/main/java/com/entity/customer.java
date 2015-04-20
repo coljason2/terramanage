@@ -6,9 +6,11 @@ import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+import com.basic.BasicEntity;
+
 @Entity
 @Table(name = "")
-public class customer {
+public class customer extends BasicEntity {
 	String pkid;
 	String name;
 	String phone;
