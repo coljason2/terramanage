@@ -2,8 +2,6 @@ package com.basic;
 
 import java.util.List;
 
-import com.entity.customer;
-
 public interface BasicDao<T extends BasicEntity> {
 
 	public abstract void inertObject(T object);
