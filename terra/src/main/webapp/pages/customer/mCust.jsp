@@ -8,9 +8,11 @@
 </head>
 <body>
 	<jsp:include page="/layout/nav.jsp" />
-	<div class="jumbotron">
-		<div class="container">
-			<h2>客戶管理</h2>
+	<div class="container theme-showcase" role="main">
+		<div class="jumbotron">
+			<div class="container">
+				<h2>客戶管理</h2>
+			</div>
 		</div>
 	</div>
 	<jsp:include page="/layout/footer.jsp" />
