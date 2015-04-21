@@ -2,12 +2,12 @@
 	pageEncoding="UTF-8"%>
 <html>
 <head>
-<jsp:include page="meta.jsp" />
+<jsp:include page="/layout/meta.jsp" />
 <title>關於</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<jsp:include page="nav.jsp" />
+	<jsp:include page="/layout/nav.jsp" />
 	<div class="jumbotron">
 		<div id="wrap">
 			<div class="container">
@@ -18,7 +18,6 @@
 			</div>
 		</div>
 	</div>
-
-	<jsp:include page="footer.jsp" />
+	<jsp:include page="/layout/footer.jsp" />
 </body>
 </html>

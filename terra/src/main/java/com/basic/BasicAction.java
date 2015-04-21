@@ -59,4 +59,15 @@ public class BasicAction {
 	public String ManageProduct() {
 		return "/product/mProduct";
 	}
+
+	@RequestMapping(value = "/about")
+	public String aboutterra() {
+		logger.debug("--------------------");
+		return "/about";
+	}
+
+	@RequestMapping(value = "/test")
+	public String actiontest() {
+		return "indextest";
+	}
 }

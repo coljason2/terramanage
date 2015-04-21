@@ -39,9 +39,7 @@
 						<li><a href="<%=request.getContextPath()%>/AddOrder">新增訂單</a></li>
 						<li><a href="<%=request.getContextPath()%>/ManageOrder">管理訂單</a></li>
 					</ul></li>
-				<li><a href="<%=request.getContextPath()%>/layout/about.jsp">關於</a></li>
-
-
+				<li><a href="<%=request.getContextPath()%>/about">關於</a></li>
 			</ul>
 		</div>
 		<!--/.nav-collapse -->
