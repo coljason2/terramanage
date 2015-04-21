@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.entity.customer;
 
-public abstract class BasicDao<T extends BasicEntity> {
+public interface BasicDao<T extends BasicEntity> {
 
 	public abstract void inertObject(T object);
 

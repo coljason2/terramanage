@@ -5,7 +5,7 @@ import java.util.List;
 import com.basic.BasicDao;
 import com.entity.order;
 
-public class OrderDao extends BasicDao<order> {
+public class OrderDao implements BasicDao<order> {
 
 	@Override
 	public void inertObject(order order) {

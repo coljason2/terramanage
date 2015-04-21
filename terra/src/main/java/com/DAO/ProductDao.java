@@ -5,7 +5,7 @@ import java.util.List;
 import com.basic.BasicDao;
 import com.entity.product;
 
-public class ProductDao extends BasicDao<product> {
+public class ProductDao implements BasicDao<product> {
 
 	@Override
 	public void inertObject(product pro) {

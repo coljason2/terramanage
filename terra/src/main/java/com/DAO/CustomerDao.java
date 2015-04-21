@@ -5,7 +5,7 @@ import java.util.List;
 import com.basic.BasicDao;
 import com.entity.customer;
 
-public class CustomerDao extends BasicDao<customer> {
+public class CustomerDao implements BasicDao<customer> {
 
 	@Override
 	public void inertObject(customer cust) {
