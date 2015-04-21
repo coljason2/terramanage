@@ -14,7 +14,7 @@
 				<div class="container">
 					<h1>關於</h1>
 					<p>本系統由JunChiChen建置</p>
-					<p>客製化於泰羅服飾</p>
+					<p>客製化於太羅服飾</p>
 					<p>感謝使用者李憲宗提供相關資源...</p>
 				</div>
 			</div>
