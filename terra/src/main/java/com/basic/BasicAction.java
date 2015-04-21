@@ -1,31 +1,62 @@
 package com.basic;
 
-import java.io.IOException;
-
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-public class BasicAction extends HttpServlet {
+@Controller
+public class BasicAction {
+	Logger logger = LoggerFactory.getLogger(BasicAction.class);
 
-	static final Logger logger = LoggerFactory.getLogger(BasicAction.class);
-
-	private static final long serialVersionUID = 1L;
-	String path = "index.jsp";
-
-	public void setPath(String setpath) {
-		path = setpath;
+	@RequestMapping(value = "/")
+	public String index() {
+		return "index";
 	}
 
-	protected void doGet(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher dispatcher = request.getRequestDispatcher(path);
+	@RequestMapping(value = "/AddCustomer")
+	public String AddCustomer() {
+		return "/customer/addCustomer";
+	}
 
-		dispatcher.forward(request, response);
+	@RequestMapping(value = "/AddOrder")
+	public String AddOrder() {
+		return "/order/addOrder";
+	}
+
+	@RequestMapping(value = "/AddProduct")
+	public String AddProduct() {
+		return "/product/addProduct";
+	}
+
+	@RequestMapping(value = "/AddShoes")
+	public String AddShoes() {
+
+		return "/product/addShoes";
+	}
+
+	@RequestMapping(value = "/DetailCustomer")
+	public String DetailCustomer() {
+		return "/detail/dCustomer";
+	}
+
+	@RequestMapping(value = "/DetailOrder")
+	public String DetailOrder() {
+		return "/detail/dProduct";
+	}
+
+	@RequestMapping(value = "/ManageCustomer")
+	public String ManageCustomer() {
+		return "/customer/mCust";
+	}
+
+	@RequestMapping(value = "/ManageOrder")
+	public String ManageOrder() {
+		return "/order/mOrder";
+	}
+
+	@RequestMapping(value = "/ManageProduct")
+	public String ManageProduct() {
+		return "/product/mProduct";
 	}
 }

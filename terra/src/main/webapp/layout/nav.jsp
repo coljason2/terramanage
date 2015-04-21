@@ -10,8 +10,7 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand"
-				href="<%=request.getContextPath()%>/index.jsp">泰羅訂單系統</a>
+			<a class="navbar-brand" href="/terra">泰羅訂單系統</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">

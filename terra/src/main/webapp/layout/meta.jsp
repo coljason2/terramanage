@@ -2,18 +2,47 @@
 	pageEncoding="UTF-8"%>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
-	href="<%=request.getContextPath()%>/resources/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.min.css" />
-<link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <script type="text/javascript"
-	src="<%=request.getContextPath()%>/resources/jquery/jquery-1.11.1.min.js"></script>
+	src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script type="text/javascript"
-	src="<%=request.getContextPath()%>/resources/jquery-ui/js/jquery-ui-1.10.4.min.js"></script>
+	src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script type="text/javascript"
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<link href="sticky-footer-navbar.css" rel="stylesheet">
 <style type="text/css">
-/* Set the fixed height of the footer here */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #f5f5f5;
+}
+
+body>.container {
+	padding: 60px 15px 0;
+}
+
+.container .text-muted {
+	margin: 20px 0;
+}
+
+.footer>.container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+code {
+	font-size: 80%;
+}
 </style>
