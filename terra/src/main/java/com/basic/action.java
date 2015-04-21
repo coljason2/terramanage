@@ -19,4 +19,9 @@ public class action extends HttpServlet {
 		model.addAttribute("number", request.getParameter("number"));
 		return "actiontest";
 	}
+
+	@RequestMapping(value = "/test")
+	public String actiontest() {
+		return "indextest";
+	}
 }

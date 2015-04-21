@@ -65,9 +65,4 @@ public class BasicAction {
 		logger.debug("--------------------");
 		return "/about";
 	}
-
-	@RequestMapping(value = "/test")
-	public String actiontest() {
-		return "indextest";
-	}
 }
