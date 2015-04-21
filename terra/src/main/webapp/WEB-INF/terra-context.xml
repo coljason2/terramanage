@@ -9,11 +9,13 @@
                            http://www.springframework.org/schema/context/spring-context.xsd
                            http://www.springframework.org/schema/mvc
                            http://www.springframework.org/schema/mvc/spring-mvc.xsd">
-
+	<!-- 設定package路徑 -->
 	<context:component-scan base-package="com.*" />
-
+	<!-- 取得靜態資源 -->
+	<mvc:resources location="/resources/**" mapping="/resources/"></mvc:resources>
+	<!-- 啟動annotation -->
 	<mvc:annotation-driven />
-
+	<!-- 設定MAPPING 路徑及資源 -->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/pages/"></property>
