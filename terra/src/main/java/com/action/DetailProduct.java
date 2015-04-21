@@ -2,10 +2,10 @@ package com.action;
 
 import com.basic.BasicAction;
 
-public class ManageProduct extends BasicAction {
+public class DetailProduct extends BasicAction {
 	private static final long serialVersionUID = 1L;
 
-	public ManageProduct() {
+	public DetailProduct() {
 		setPath("/pages/product/mProduct.jsp");
 	}
 

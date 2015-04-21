@@ -15,6 +15,6 @@ public class AddShoes extends BasicAction {
 	 */
 	public AddShoes() {
 		super();
-		setPath("product/addShoes.jsp");
+		setPath("/pages/product/addShoes.jsp");
 	}
 }

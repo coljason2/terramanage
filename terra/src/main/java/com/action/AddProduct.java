@@ -10,6 +10,6 @@ public class AddProduct extends BasicAction {
 	 */
 	public AddProduct() {
 		super();
-		setPath("product/addProduct.jsp");
+		setPath("/pages/product/addProduct.jsp");
 	}
 }

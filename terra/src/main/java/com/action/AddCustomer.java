@@ -6,6 +6,6 @@ public class AddCustomer extends BasicAction {
 	private static final long serialVersionUID = 1L;
 
 	public AddCustomer() {
-		setPath("customer/addCustomer.jsp");
+		setPath("/pages/customer/addCustomer.jsp");
 	}
 }

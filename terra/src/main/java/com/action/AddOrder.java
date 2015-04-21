@@ -15,6 +15,6 @@ public class AddOrder extends BasicAction {
 	 */
 	public AddOrder() {
 		super();
-		setPath("order/addOrder.jsp");
+		setPath("/pages/order/addOrder.jsp");
 	}
 }
