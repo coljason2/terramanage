@@ -12,6 +12,8 @@
 		<div class="jumbotron">
 			<div class="container">
 				<h2>客戶管理</h2>
+				<table class="table table-hover">
+				</table>
 			</div>
 		</div>
 	</div>

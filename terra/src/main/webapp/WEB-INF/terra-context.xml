@@ -22,7 +22,13 @@
 		<property name="suffix" value=".jsp"></property>
 	</bean>
 	<!--Data access -->
-
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="org.h2.Driver" />
+		<property name="url" value="jdbc:h2:~/terra/data/terraDB" />
+		<property name="username" value="sa" />
+		<property name="password" value="sa" />
+	</bean>
 
 
 </beans>
