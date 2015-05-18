@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import com.basic.BasicEntity;
@@ -11,6 +12,7 @@ import com.basic.BasicEntity;
 @Entity
 @Table(name = "")
 public class customer extends BasicEntity {
+	@Id
 	String pkid;
 	String name;
 	String phone;

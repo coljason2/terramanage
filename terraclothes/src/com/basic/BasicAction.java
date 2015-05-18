@@ -1,7 +1,6 @@
 package com.basic;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -61,7 +60,11 @@ public class BasicAction {
 
 	@RequestMapping(value = "/about")
 	public String aboutterra() {
-		// logger.debug("--------------------");
 		return "about";
+	}
+
+	@RequestMapping(value = "*")
+	public String error() {
+		return "error";
 	}
 }

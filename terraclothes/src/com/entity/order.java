@@ -3,6 +3,7 @@ package com.entity;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import com.basic.BasicEntity;
@@ -10,6 +11,7 @@ import com.basic.BasicEntity;
 @Entity
 @Table(name = "")
 public class order extends BasicEntity {
+	@Id
 	String pkid;
 	customer owner;
 	List<product> products;

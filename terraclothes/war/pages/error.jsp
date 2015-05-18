@@ -12,7 +12,7 @@
 		<div class="jumbotron">
 			<div class="container">
 				<h1>哎呀網頁錯誤!</h1>
-				<h3>Error page..: "${exception.message}"</h3>
+				<h3>Error page..${exception.message}</h3>
 			</div>
 		</div>
 	</div>

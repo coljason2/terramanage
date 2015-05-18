@@ -3,6 +3,7 @@ package com.entity;
 import java.sql.Timestamp;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import com.basic.BasicEntity;
@@ -10,6 +11,7 @@ import com.basic.BasicEntity;
 @Entity(name = "")
 @Table(name = "")
 public class product extends BasicEntity {
+	@Id
 	String pkid;
 	String name;
 	String color;
